@@ -1,0 +1,128 @@
+body{
+	background-color: #f6f9fc;
+}
+
+#header{
+	overflow: hidden;
+	background-color: #1882C5;
+	width: 100%;
+	height: 100px;
+	left: 0;
+	top: 0;
+	right: 0;
+		margin: 0 auto;
+		position: fixed;
+		padding-top: 10px;
+		line-height: 0px;
+
+}
+
+#slogo{
+	padding-left: 30px;
+	width: 300px;
+	background-color: #1882C5;
+	float: left;
+	margin-bottom: -10px;
+}
+#slogo h1{
+	color: white;
+	font-size: 40px;
+	padding-bottom: 15px;
+
+}
+a{
+	text-decoration : none;
+}
+
+
+#signup{
+	float: right;
+	width: 15%;
+	background-color: #1882C5;
+	display: inline-block;
+		border: solid 4px white;
+	margin: 20px ;
+	text-align: center;
+		border-radius: 4px;
+
+
+}
+#signup h2{
+	background-color: #2b3e50 ;
+	color: white; 
+	border-color: #49c9af;
+	font-style: bold;
+	font-size: 25px;
+
+}
+#mainPage{
+	margin-top: 12px;
+	margin-left: -8px;
+	margin-right: -8px;
+	width: 100%;
+	height: 544px;
+	overflow: hidden;
+	position:relative; top:0; left:0; width:100%; 
+}
+
+               #searchbar{
+               	width: 300px;
+				   height: 556px;
+				   background-color: #eaedef;
+				   position: center;
+				   left: 0;
+				   border-right: solid 2px grey;
+				   position: fixed;
+
+               }
+               #search{
+               	width: 295px;
+               	height: auto;
+               	border: solid 2px silver; 
+               }
+
+               input[type=text] {
+               	 width: 200px;
+               	 background: "searchicon.png";
+    box-sizing: border-box;
+    border: 2px solid #49c9af;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+#content
+{
+	width: 200px;
+	height: 150px;
+	float: right;
+	margin: 170px 170px 170px 170px;
+	background-position: bottom left right;
+	background-color: rgb(70,107,140);
+	text-align: center;
+
+	
+	width: 50%;
+}
+#content a{
+	text-decoration: none;
+	padding:90px; 
+		
+}
+#content h1{
+	color: white;
+	font-size: 50px;
+}
+button{
+	font-size: 30px;
+}
+
+    

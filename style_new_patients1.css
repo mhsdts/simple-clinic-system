@@ -1,0 +1,237 @@
+body::-webkit-scrollbar {
+    width: 0.5em;
+    border-radius: 3em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #1882C5;
+  outline: 1px solid slategrey;
+}
+
+
+body{
+	background-color:#f6f9fc;
+;
+}
+
+#header{
+	overflow: hidden;
+	background-color: #1882C5;
+	width: 100%;
+	height: 100px;
+	left: 0;
+	top: 0;
+	right: 0;
+		margin: 0 auto;
+		position: fixed;
+		padding-top: 10px;
+		line-height: 0px;
+		z-index: 2;
+
+}
+
+#slogo{
+	padding-left: 30px;
+	width: 300px;
+	background-color: #1882C5;
+	float: left;
+	margin-bottom: -10px;
+}
+#slogo h1{
+	color: white;
+	font-size: 40px;
+	padding-bottom: 15px;
+
+}
+a{
+	text-decoration : none;
+}
+
+
+#signup{
+	float: right;
+	width: 250px;
+	background-color: #1882C5;
+	display: inline-block;
+		border: solid 4px white;
+	margin: 20px ;
+	text-align: center;
+		border-radius: 4px;
+
+
+}
+#signup h2{
+	background-color: #2b3e50 ;
+	color: white; 
+	border-color: #49c9af;
+	font-style: bold;
+	font-size: 25px;
+	float: left;
+
+}
+#main_i{
+	float: right;
+	border-left: 5px solid white;
+	width: 50%;
+	padding-left: 10px;
+}
+#main_ii {
+	width: 50%;
+	padding-left: 12px;
+}
+                                                                   #mainPage{
+	                                                                   margin-top: 12px;
+	                                                                   margin-left: -6px;
+	                                                                   margin-right: -8px;
+	                                                                   width: 110%;
+	                                                                   height: 950px;
+	                                                                   overflow: hidden;
+	                                                                   position:relative; top:0; left:0; width:100%; 
+	                                                                   z-index: 1;
+}
+                                                   #page{
+	                                               width: 100%;
+	                                               height :1500px;
+	                                               float :left;
+
+}
+
+#content{
+float: left;
+
+}
+
+
+               #searchbar{
+               	width: 300px;
+				   height: 556px;
+				   background-color: #eaedef;
+				   position: center;
+				   left: 0;
+				   border-right: 2px solid grey;
+				   position: fixed;
+
+               }
+               #search{
+               	width: 295px;
+               	height: auto;
+               	border: solid 2px silver; 
+               	    background: url(http://i.imgur.com/lf9rSzv.png) no-repeat;
+
+               }
+
+           #search input[type=text ] {
+               	 width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #49c9af;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+/* When the input field gets focus, change its width to 100% */
+#search input[type=text]:focus {
+    width: 100%;
+}
+
+#formy{
+	font-size: 20px;
+	margin-top: 10px;
+	width: 1450px;
+	height: 1500px;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+#formy input[type=text] {
+	margin-left: 20px;
+               	 width: 350px;
+               	 background: "searchicon.png";
+    box-sizing: border-box;
+    border: 2px solid #F0502A;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#formy input[type=number] {
+               	 width: 350px;
+               	 background: "searchicon.png";
+    box-sizing: border-box;
+    border: 2px solid #F0502A;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+
+}
+
+#formy textarea{
+	width: 500px;
+	height: 500px;
+	font-size: 20PX;
+	display: block;
+	border: 3px solid #F0502A;
+	 background: url(http://i.stack.imgur.com/ynxjD.png) repeat-y;
+	 resize: none;
+
+
+}
+#part1
+{
+	display: inline-block;
+	margin: 0 auto;
+width:700px;
+float: left;
+margin-left: 5px;
+}
+#part2
+{
+margin-left: 40px;
+width:700px;
+float: left;
+display: inline-block;
+
+}
+
+#formy button {
+width: 200px;
+margin-right: 190px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 30px;
+    background-color: #1882c5;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 12px 12px 12px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    display: inline-block;
+
+}
+#button{
+float: right;
+}
+#button1{
+float: left;
+margin-top: -68px;
+}
+
